@@ -33,6 +33,11 @@
     fill: $active-icon-color;
     stroke: $active-icon-color;
   }
+
+  &--small {
+    width: $inuit-base-spacing-unit + halve($inuit-base-spacing-unit);
+    height: $inuit-base-spacing-unit + halve($inuit-base-spacing-unit);
+  }
 }
 
 //.drag-handle {

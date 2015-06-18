@@ -9,6 +9,11 @@ var Clear = React.createClass({
     if (this.props.className) {
       className += ' ' + this.props.className;
     }
+
+    if (this.props.small) {
+      className += ' control-icon--small';
+    }
+
     return (
       <svg className={className} viewBox="0 0 48 48" version="1.1">
         <g fill="none">
